@@ -235,6 +235,13 @@ footer > #mark span::selection {
     border-radius: 0 0 15px 15px;
 }
 
+#links a {
+    color: rgba(0, 0, 0, 0.5);
+
+    font-family: SF-Pro-Medium;
+    font-size: 17px;
+}
+
 @media (max-width: 910px) {
     header {
         height: auto;
@@ -253,6 +260,15 @@ footer > #mark span::selection {
         height: auto;
     }
 
+    figure > #img-container {
+        display: none;
+    }
+
+    main > figure #texts-container {
+        width: 100%;
+        text-align: center;
+    }
+
     #conteudos {
         width: 100%;
         margin: 0;
@@ -267,5 +283,9 @@ footer > #mark span::selection {
     #conteudos > aside {
         position: relative;
         padding: 15px;
+    }
+
+    #cards {
+        width: 100vw;
     }
 }
